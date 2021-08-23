@@ -22,6 +22,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <div>
         <Link href="/static1">
           <Button variant="contained" color="danger">Static 1</Button>
         </Link>
@@ -31,6 +32,13 @@ export default function Home() {
         <Link href="/static3">
           <Button variant="contained" color="secondary">Static 3</Button>
         </Link>
+        <Link href="/dynamic1">
+          <Button variant="contained" color="secondary">Dynamic 1</Button>
+        </Link>
+        <Link href="/dynamic2">
+          <Button variant="contained" color="secondary">Dynamic 2</Button>
+        </Link>
+        </div>
       </main>
 
       <footer className={styles.footer}>
